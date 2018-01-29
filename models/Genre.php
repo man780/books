@@ -23,7 +23,7 @@ class Genre extends \yii\db\ActiveRecord
     {
         return 'genre';
     }
-    
+
     /**
      * @inheritdoc
      */

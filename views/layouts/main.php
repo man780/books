@@ -17,7 +17,7 @@ AppAsset::register($this);
     <meta charset="<?= Yii::$app->charset ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?= Html::csrfMetaTags() ?>
-    <title><?= Html::encode($this->title) ?></title>
+    <title><?= Html::encode(Yii::$app->name) ?> | <?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
 
     <link rel="shortcut icon" href="/images/favicon.ico"/>
@@ -28,7 +28,6 @@ AppAsset::register($this);
     <!--//fonts-->
 
     <!-- js -->
-    <!--<script src="js/jquery.min.js"></script>-->
     <script type="text/javascript">
         /*------------menu---------------*/
         function consoleBG() {
@@ -66,9 +65,8 @@ AppAsset::register($this);
         }
     </script>
 
-    <!--<link href="js/animate/animate.min.css" type="text/css" rel="stylesheet">-->
     <script>
-        if(window.screen.width > 800) {
+        if (window.screen.width > 800) {
             document.write('<script type="text/javascript" src="js/animate/wow.min.js"><\/script>');
         }
     </script>
@@ -89,11 +87,13 @@ AppAsset::register($this);
 <!---------- { top_menu } ------------------------------->
 <div id="top_menu">
     <div class="container ttable_rev">
-        <div class="t1b bkpos_15 ttable_rev topm1"><div class="ttable_dev topm1">
+        <div class="t1b bkpos_15 ttable_rev topm1">
+            <div class="ttable_dev topm1">
                 <div id="mmmset1">
                     <div class="logos1">
                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-                             width="2000.000000pt" height="2000.000000pt" viewBox="0 0 2000.000000 2000.000000" preserveAspectRatio="xMidYMid meet">
+                             width="2000.000000pt" height="2000.000000pt" viewBox="0 0 2000.000000 2000.000000"
+                             preserveAspectRatio="xMidYMid meet">
                             <g transform="translate(0.000000,2000.000000) scale(0.100000,-0.100000)" stroke="none">
                                 <path d="M5648 17653 c-24 -3 -38 -9 -38 -19 0 -10 -13 -14 -50 -14 -38 0 -50
 				-4 -50 -15 0 -8 -9 -15 -20 -15 -21 0 -62 -34 -57 -47 1 -5 -13 -9 -30 -11
@@ -558,10 +558,13 @@ AppAsset::register($this);
                     </div>
                     <div class="clear"></div>
                 </div>
-            </div></div>
+            </div>
+        </div>
 
-        <div class="t2b bkpos_85 ttable_rev topm1"><div class="ttable_dev topm1">
-                <a href="#" id="but_mobiles" onClick="diplay_hide('#mobilemenus');return false;" class="mobilespot  icon-menu-3"></a>
+        <div class="t2b bkpos_85 ttable_rev topm1">
+            <div class="ttable_dev topm1">
+                <a href="#" id="but_mobiles" onClick="diplay_hide('#mobilemenus');return false;"
+                   class="mobilespot  icon-menu-3"></a>
                 <div id="mmmset2">
                     <a href="">Главная</a>
                     <a href="">О нас</a>
@@ -569,14 +572,16 @@ AppAsset::register($this);
                     <a href="">Информация</a>
                     <a href="">Контакты</a>
                 </div>
-            </div></div>
+            </div>
+        </div>
         <div class="clear"></div>
     </div>
 </div>
 
 <div id="mobilemenus">
     <div class="mb_mini">
-        <div class="container"><a href="#" onClick="diplay_hide('#mobilemenus');return false;" class="mobilespot2  icon-menu-3"></a></div>
+        <div class="container"><a href="#" onClick="diplay_hide('#mobilemenus');return false;"
+                                  class="mobilespot2  icon-menu-3"></a></div>
         <div class="clear"></div>
     </div>
 
@@ -624,157 +629,9 @@ AppAsset::register($this);
 </header>
 <!----------- { header } -------------------------------->
 
-
-<!---------- { position1 } ------------------------------>
-<section id="position1">
-    <div class="colontit1">
-        <div class="container">
-            <div class="colt1 icon-th-large-outline"></div>
-            <div class="colt2">Романы и история</div>
-        </div>
-    </div>
-
-    <div class="container posconent">
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk1.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk2.png" />
-            <div class="textpostg">WThese include corporations, cooperatives, partnerships, sole traders, limited liability company and other specifically permitted and labelled types of entities. The specific rules vary by country and by state or province. Some of these types are listed below, by country. For guidance, approximately equivalents in g</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk3.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk4.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-    </div>
-    <div class="elements"><img src="images/element.png" /></div>
-
-    <div class="container posconent">
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk1.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk2.png" />
-            <div class="textpostg">WThese include corporations, cooperatives, partnerships, sole traders, limited liability company and other specifically permitted and labelled types of entities. The specific rules vary by country and by state or province. Some of these types are listed below, by country. For guidance, approximately equivalents in g</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk3.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk4.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-    </div>
-    <div class="elements"><img src="images/element.png" /></div>
-</section>
-<!---------- { position1 } ------------------------------>
-
-<!---------- { position2 } ------------------------------>
-<section id="position2">
-    <div class="colontit2">
-        <div class="container">
-            <div class="colt1 icon-th-large-outline"></div>
-            <div class="colt2">Новости</div>
-        </div>
-    </div>
-
-    <div class="container posnews">
-        <a href="" class="bkpos_31 posnegs wow fadeIn">
-            <div class="imnee" style="background: url(images/2.jpg) no-repeat;"></div>
-            <div class="textee">
-                <h1>All students</h1>
-                <p>Many students are cash-strapped, nowadays.
-                    Nevertheless, their purchasing power is very
-                    high. Research reveals that 20 m...</p>
-            </div>
-        </a>
-
-        <a href="" class="bkpos_31 posnegs wow fadeIn">
-            <div class="imnee" style="background: url(images/73186.jpg) no-repeat;"></div>
-            <div class="textee">
-                <h1>All students</h1>
-                <p>Many students are cash-strapped, nowadays.
-                    Nevertheless, their purchasing power is very
-                    high. Research reveals that 20 m...</p>
-            </div>
-        </a>
-
-        <a href="" class="bkpos_31 posnegs wow fadeIn">
-            <div class="imnee" style="background: url(images/camp-2587926_1920.jpg) no-repeat;"></div>
-            <div class="textee">
-                <h1>All students Many students are cash-strapped, nowadays.
-                    Nevertheless, their purchasing power is very
-                    high. Research reveals that 20 m...</h1>
-                <p>Many students are cash-strapped, nowadays.
-                    Nevertheless, their purchasing power is very
-                    high. Research reveals that 20 m... Many students are cash-strapped, nowadays.
-                    Nevertheless, their purchasing power is very
-                    high. Research reveals that 20 m...</p>
-            </div>
-        </a>
-    </div>
-</section>
-<!---------- { position2 } ------------------------------>
-
-
-<!---------- { position1 } ------------------------------>
-<section id="position1">
-    <div class="colontit1">
-        <div class="container">
-            <div class="colt1 icon-th-large-outline"></div>
-            <div class="colt2">Популярные книги</div>
-        </div>
-    </div>
-
-    <div class="container posconent">
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk1.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk2.png" />
-            <div class="textpostg">WThese include corporations, cooperatives, partnerships, sole traders, limited liability company and other specifically permitted and labelled types of entities. The specific rules vary by country and by state or province. Some of these types are listed below, by country. For guidance, approximately equivalents in g</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk3.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-
-        <a href="" class="bkpos_25 posgend wow fadeInUp">
-            <div class="mon1pos"><div class="monpostg">10 000</div></div>
-            <img class="imgspostg" src="images/bk4.png" />
-            <div class="textpostg">When it comes to remodeling</div>
-        </a>
-    </div>
-    <div class="elements"><img src="images/element.png" /></div>
-</section>
-<!---------- { position1 } ------------------------------>
+<div class="container">
+    <?=$content?>
+</div>
 
 <!----------- { footer } -------------------------------->
 <footer id="footer">

@@ -2,52 +2,180 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'My Yii Application';
+$this->title = 'Bosh sahifa';
 ?>
-<div class="site-index">
 
-    <div class="jumbotron">
-        <h1>Congratulations!</h1>
-
-        <p class="lead">You have successfully created your Yii-powered application.</p>
-
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>
-    </div>
-
-    <div class="body-content">
-
-        <div class="row">
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/doc/">Yii Documentation &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/forum/">Yii Forum &raquo;</a></p>
-            </div>
-            <div class="col-lg-4">
-                <h2>Heading</h2>
-
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                    fugiat nulla pariatur.</p>
-
-                <p><a class="btn btn-default" href="http://www.yiiframework.com/extensions/">Yii Extensions &raquo;</a></p>
-            </div>
+<!---------- { position1 } ------------------------------>
+<section id="position1">
+    <div class="colontit1">
+        <div class="container">
+            <div class="colt1 icon-th-large-outline"></div>
+            <div class="colt2">Романы и история</div>
         </div>
-
     </div>
-</div>
+
+    <div class="container posconent">
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk1.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk2.png"/>
+            <div class="textpostg">WThese include corporations, cooperatives, partnerships, sole traders, limited liability company and other specifically permitted and labelled types of entities. The specific rules vary by country and by state or province. Some of these types are listed below, by country. For guidance, approximately equivalents in g</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk3.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk4.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+    </div>
+    <div class="elements"><img src="images/element.png"/></div>
+
+    <div class="container posconent">
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk1.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk2.png"/>
+            <div class="textpostg">WThese include corporations, cooperatives, partnerships, sole traders, limited liability company and other specifically permitted and labelled types of entities. The specific rules vary by country and by state or province. Some of these types are listed below, by country. For guidance, approximately equivalents in g</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk3.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk4.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+    </div>
+    <div class="elements"><img src="images/element.png"/></div>
+</section>
+<!---------- { position1 } ------------------------------>
+
+<!---------- { position2 } ------------------------------>
+<section id="position2">
+    <div class="colontit2">
+        <div class="container">
+            <div class="colt1 icon-th-large-outline"></div>
+            <div class="colt2">Новости</div>
+        </div>
+    </div>
+
+    <div class="container posnews">
+        <a href="" class="bkpos_31 posnegs wow fadeIn">
+            <div class="imnee" style="background: url(images/2.jpg) no-repeat;"></div>
+            <div class="textee">
+                <h1>All students</h1>
+                <p>Many students are cash-strapped, nowadays.
+                    Nevertheless, their purchasing power is very
+                    high. Research reveals that 20 m...</p>
+            </div>
+        </a>
+
+        <a href="" class="bkpos_31 posnegs wow fadeIn">
+            <div class="imnee" style="background: url(images/73186.jpg) no-repeat;"></div>
+            <div class="textee">
+                <h1>All students</h1>
+                <p>Many students are cash-strapped, nowadays.
+                    Nevertheless, their purchasing power is very
+                    high. Research reveals that 20 m...</p>
+            </div>
+        </a>
+
+        <a href="" class="bkpos_31 posnegs wow fadeIn">
+            <div class="imnee" style="background: url(images/camp-2587926_1920.jpg) no-repeat;"></div>
+            <div class="textee">
+                <h1>All students Many students are cash-strapped, nowadays.
+                    Nevertheless, their purchasing power is very
+                    high. Research reveals that 20 m...</h1>
+                <p>Many students are cash-strapped, nowadays.
+                    Nevertheless, their purchasing power is very
+                    high. Research reveals that 20 m... Many students are cash-strapped, nowadays.
+                    Nevertheless, their purchasing power is very
+                    high. Research reveals that 20 m...</p>
+            </div>
+        </a>
+    </div>
+</section>
+<!---------- { position2 } ------------------------------>
+
+
+<!---------- { position1 } ------------------------------>
+<section id="position1">
+    <div class="colontit1">
+        <div class="container">
+            <div class="colt1 icon-th-large-outline"></div>
+            <div class="colt2">Популярные книги</div>
+        </div>
+    </div>
+
+    <div class="container posconent">
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk1.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk2.png"/>
+            <div class="textpostg">WThese include corporations, cooperatives, partnerships, sole traders, limited liability company and other specifically permitted and labelled types of entities. The specific rules vary by country and by state or province. Some of these types are listed below, by country. For guidance, approximately equivalents in g</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk3.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+
+        <a href="" class="bkpos_25 posgend wow fadeInUp">
+            <div class="mon1pos">
+                <div class="monpostg">10 000</div>
+            </div>
+            <img class="imgspostg" src="images/bk4.png"/>
+            <div class="textpostg">When it comes to remodeling</div>
+        </a>
+    </div>
+    <div class="elements"><img src="images/element.png"/></div>
+</section>
+<!---------- { position1 } ------------------------------>

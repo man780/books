@@ -35,6 +35,7 @@ class BooksController extends Controller
      */
     public function actionIndex()
     {
+        $this->layout = 'list';
         $searchModel = new BooksSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
